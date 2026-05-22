@@ -82,3 +82,16 @@ Use plain `git` for these.
 ## License
 
 MIT
+
+## Roadmap
+
+The following commands are scheduled for the upcoming 0.2.x release and
+will move out of the "Not supported" list at that time:
+
+- `push` — push the current branch to its tracked upstream (no force,
+  no remote add)
+- `pull-rebase` — fetch + rebase the current branch onto its upstream
+
+The "Not supported" section above describes the **current** 0.1.x
+behavior. Treat the Roadmap section as the authoritative source of truth
+for what is planned in the next minor release.
